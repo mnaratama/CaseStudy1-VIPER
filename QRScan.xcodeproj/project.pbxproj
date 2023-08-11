@@ -30,10 +30,21 @@
 		230439362A85D65C0010CE8A /* ScanQRInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439352A85D65C0010CE8A /* ScanQRInteractor.swift */; };
 		230439382A85D6790010CE8A /* ScanQRPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439372A85D6790010CE8A /* ScanQRPresenter.swift */; };
 		2304393A2A85D68B0010CE8A /* ScanQRRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439392A85D68B0010CE8A /* ScanQRRouter.swift */; };
+		2304393E2A85E26E0010CE8A /* TransactionHistoryPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304393D2A85E26E0010CE8A /* TransactionHistoryPresenterTests.swift */; };
+		230439412A85E3C80010CE8A /* PaymentDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439402A85E3C80010CE8A /* PaymentDetailViewControllerTests.swift */; };
+		230439432A85E4750010CE8A /* PaymentDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439422A85E4750010CE8A /* PaymentDetailPresenterTests.swift */; };
+		230439452A85E4DC0010CE8A /* PaymentDetailInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439442A85E4DC0010CE8A /* PaymentDetailInteractorTest.swift */; };
+		230439482A85E7660010CE8A /* QRScanViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439472A85E7660010CE8A /* QRScanViewControllerTests.swift */; };
+		2304394A2A85E7840010CE8A /* QRScanPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439492A85E7840010CE8A /* QRScanPresenterTest.swift */; };
+		2304394C2A85E7B60010CE8A /* QRScanInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304394B2A85E7B60010CE8A /* QRScanInteractorTests.swift */; };
+		2304394E2A85E7EB0010CE8A /* QRScanRouteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304394D2A85E7EB0010CE8A /* QRScanRouteTests.swift */; };
+		230439512A85E9000010CE8A /* HomeViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439502A85E9000010CE8A /* HomeViewControllerTest.swift */; };
+		230439532A85E91E0010CE8A /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439522A85E91E0010CE8A /* HomePresenterTests.swift */; };
+		230439552A85E9630010CE8A /* HomeRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439542A85E9630010CE8A /* HomeRouterTest.swift */; };
 		234369682A8483A6008F8D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234369672A8483A6008F8D53 /* AppDelegate.swift */; };
 		2343696A2A8483A6008F8D53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234369692A8483A6008F8D53 /* SceneDelegate.swift */; };
 		234369712A8483A7008F8D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234369702A8483A7008F8D53 /* Assets.xcassets */; };
-		2343697F2A8483A8008F8D53 /* QRScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343697E2A8483A8008F8D53 /* QRScanTests.swift */; };
+		2343697F2A8483A8008F8D53 /* TransactionHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343697E2A8483A8008F8D53 /* TransactionHistoryTests.swift */; };
 		234369892A8483A8008F8D53 /* QRScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234369882A8483A8008F8D53 /* QRScanUITests.swift */; };
 		2343698B2A8483A8008F8D53 /* QRScanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343698A2A8483A8008F8D53 /* QRScanUITestsLaunchTests.swift */; };
 		2343699B2A848684008F8D53 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343699A2A848684008F8D53 /* UIViewHelper.swift */; };
@@ -82,13 +93,24 @@
 		230439352A85D65C0010CE8A /* ScanQRInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRInteractor.swift; sourceTree = "<group>"; };
 		230439372A85D6790010CE8A /* ScanQRPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRPresenter.swift; sourceTree = "<group>"; };
 		230439392A85D68B0010CE8A /* ScanQRRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRRouter.swift; sourceTree = "<group>"; };
+		2304393D2A85E26E0010CE8A /* TransactionHistoryPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryPresenterTests.swift; sourceTree = "<group>"; };
+		230439402A85E3C80010CE8A /* PaymentDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewControllerTests.swift; sourceTree = "<group>"; };
+		230439422A85E4750010CE8A /* PaymentDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailPresenterTests.swift; sourceTree = "<group>"; };
+		230439442A85E4DC0010CE8A /* PaymentDetailInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailInteractorTest.swift; sourceTree = "<group>"; };
+		230439472A85E7660010CE8A /* QRScanViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewControllerTests.swift; sourceTree = "<group>"; };
+		230439492A85E7840010CE8A /* QRScanPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanPresenterTest.swift; sourceTree = "<group>"; };
+		2304394B2A85E7B60010CE8A /* QRScanInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanInteractorTests.swift; sourceTree = "<group>"; };
+		2304394D2A85E7EB0010CE8A /* QRScanRouteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanRouteTests.swift; sourceTree = "<group>"; };
+		230439502A85E9000010CE8A /* HomeViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTest.swift; sourceTree = "<group>"; };
+		230439522A85E91E0010CE8A /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
+		230439542A85E9630010CE8A /* HomeRouterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouterTest.swift; sourceTree = "<group>"; };
 		234369642A8483A6008F8D53 /* QRScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		234369672A8483A6008F8D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		234369692A8483A6008F8D53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		234369702A8483A7008F8D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		234369752A8483A7008F8D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2343697A2A8483A8008F8D53 /* QRScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2343697E2A8483A8008F8D53 /* QRScanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanTests.swift; sourceTree = "<group>"; };
+		2343697E2A8483A8008F8D53 /* TransactionHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryTests.swift; sourceTree = "<group>"; };
 		234369842A8483A8008F8D53 /* QRScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		234369882A8483A8008F8D53 /* QRScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanUITests.swift; sourceTree = "<group>"; };
 		2343698A2A8483A8008F8D53 /* QRScanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -343,6 +365,57 @@
 			path = HomeViewTableViewCell;
 			sourceTree = "<group>";
 		};
+		2304393B2A85E1C90010CE8A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2304393C2A85E1D10010CE8A /* TransactionHistoryModuleTest */,
+				2304393F2A85E28F0010CE8A /* PaymentDetailModuleTest */,
+				230439462A85E64C0010CE8A /* QRScanModuleTest */,
+				2304394F2A85E8EC0010CE8A /* HomeModulTest */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		2304393C2A85E1D10010CE8A /* TransactionHistoryModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				2343697E2A8483A8008F8D53 /* TransactionHistoryTests.swift */,
+				2304393D2A85E26E0010CE8A /* TransactionHistoryPresenterTests.swift */,
+			);
+			path = TransactionHistoryModuleTest;
+			sourceTree = "<group>";
+		};
+		2304393F2A85E28F0010CE8A /* PaymentDetailModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				230439402A85E3C80010CE8A /* PaymentDetailViewControllerTests.swift */,
+				230439422A85E4750010CE8A /* PaymentDetailPresenterTests.swift */,
+				230439442A85E4DC0010CE8A /* PaymentDetailInteractorTest.swift */,
+			);
+			path = PaymentDetailModuleTest;
+			sourceTree = "<group>";
+		};
+		230439462A85E64C0010CE8A /* QRScanModuleTest */ = {
+			isa = PBXGroup;
+			children = (
+				230439472A85E7660010CE8A /* QRScanViewControllerTests.swift */,
+				230439492A85E7840010CE8A /* QRScanPresenterTest.swift */,
+				2304394B2A85E7B60010CE8A /* QRScanInteractorTests.swift */,
+				2304394D2A85E7EB0010CE8A /* QRScanRouteTests.swift */,
+			);
+			path = QRScanModuleTest;
+			sourceTree = "<group>";
+		};
+		2304394F2A85E8EC0010CE8A /* HomeModulTest */ = {
+			isa = PBXGroup;
+			children = (
+				230439502A85E9000010CE8A /* HomeViewControllerTest.swift */,
+				230439522A85E91E0010CE8A /* HomePresenterTests.swift */,
+				230439542A85E9630010CE8A /* HomeRouterTest.swift */,
+			);
+			path = HomeModulTest;
+			sourceTree = "<group>";
+		};
 		2343695B2A8483A6008F8D53 = {
 			isa = PBXGroup;
 			children = (
@@ -380,7 +453,7 @@
 		2343697D2A8483A8008F8D53 /* QRScanTests */ = {
 			isa = PBXGroup;
 			children = (
-				2343697E2A8483A8008F8D53 /* QRScanTests.swift */,
+				2304393B2A85E1C90010CE8A /* Module */,
 			);
 			path = QRScanTests;
 			sourceTree = "<group>";
@@ -716,7 +789,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2343697F2A8483A8008F8D53 /* QRScanTests.swift in Sources */,
+				2304394A2A85E7840010CE8A /* QRScanPresenterTest.swift in Sources */,
+				230439512A85E9000010CE8A /* HomeViewControllerTest.swift in Sources */,
+				230439432A85E4750010CE8A /* PaymentDetailPresenterTests.swift in Sources */,
+				2304393E2A85E26E0010CE8A /* TransactionHistoryPresenterTests.swift in Sources */,
+				2343697F2A8483A8008F8D53 /* TransactionHistoryTests.swift in Sources */,
+				230439552A85E9630010CE8A /* HomeRouterTest.swift in Sources */,
+				2304394C2A85E7B60010CE8A /* QRScanInteractorTests.swift in Sources */,
+				230439412A85E3C80010CE8A /* PaymentDetailViewControllerTests.swift in Sources */,
+				230439532A85E91E0010CE8A /* HomePresenterTests.swift in Sources */,
+				2304394E2A85E7EB0010CE8A /* QRScanRouteTests.swift in Sources */,
+				230439482A85E7660010CE8A /* QRScanViewControllerTests.swift in Sources */,
+				230439452A85E4DC0010CE8A /* PaymentDetailInteractorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
