@@ -1,0 +1,1044 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12DD46291D1D097D28E06CC1 /* Pods_QRScan_QRScanUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F857D21F74A723231A5017 /* Pods_QRScan_QRScanUITests.framework */; };
+		2304390F2A84E9780010CE8A /* HomeEntitiy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304390E2A84E9780010CE8A /* HomeEntitiy.swift */; };
+		230439112A84E9A30010CE8A /* PaymentDetailEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439102A84E9A30010CE8A /* PaymentDetailEntity.swift */; };
+		230439132A84E9BC0010CE8A /* TransactionHistoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439122A84E9BC0010CE8A /* TransactionHistoryEntity.swift */; };
+		230439152A84ECD30010CE8A /* TransactionHistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439142A84ECD30010CE8A /* TransactionHistoryRouter.swift */; };
+		230439172A84ED2D0010CE8A /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439162A84ED2D0010CE8A /* TransactionTableViewCell.swift */; };
+		230439192A84ED460010CE8A /* TransactionHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439182A84ED460010CE8A /* TransactionHistoryViewController.swift */; };
+		2304391B2A84ED630010CE8A /* TransactionHistoryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304391A2A84ED630010CE8A /* TransactionHistoryInteractor.swift */; };
+		2304391D2A84ED780010CE8A /* TransactionHistoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304391C2A84ED780010CE8A /* TransactionHistoryPresenter.swift */; };
+		2304391F2A84F0740010CE8A /* PaymentDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304391E2A84F0740010CE8A /* PaymentDetailPresenter.swift */; };
+		230439212A84F08F0010CE8A /* PaymentDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439202A84F08F0010CE8A /* PaymentDetailRouter.swift */; };
+		230439232A84F0A70010CE8A /* PaymentDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439222A84F0A70010CE8A /* PaymentDetailInteractor.swift */; };
+		230439252A84F0D60010CE8A /* PaymentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439242A84F0D60010CE8A /* PaymentDetailViewController.swift */; };
+		230439272A84F15C0010CE8A /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439262A84F15C0010CE8A /* HomeRouter.swift */; };
+		230439292A84F18B0010CE8A /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439282A84F18B0010CE8A /* HomeInteractor.swift */; };
+		2304392B2A85CBF00010CE8A /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304392A2A85CBF00010CE8A /* HomePresenter.swift */; };
+		2304392D2A85CC0B0010CE8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304392C2A85CC0B0010CE8A /* HomeViewController.swift */; };
+		230439302A85CD0C0010CE8A /* HomeTableViewProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2304392F2A85CD0C0010CE8A /* HomeTableViewProfileCell.swift */; };
+		230439322A85CD180010CE8A /* HomeTableMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439312A85CD180010CE8A /* HomeTableMenuCell.swift */; };
+		230439342A85D6420010CE8A /* ScanQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439332A85D6420010CE8A /* ScanQRViewController.swift */; };
+		230439362A85D65C0010CE8A /* ScanQRInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439352A85D65C0010CE8A /* ScanQRInteractor.swift */; };
+		230439382A85D6790010CE8A /* ScanQRPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439372A85D6790010CE8A /* ScanQRPresenter.swift */; };
+		2304393A2A85D68B0010CE8A /* ScanQRRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230439392A85D68B0010CE8A /* ScanQRRouter.swift */; };
+		234369682A8483A6008F8D53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234369672A8483A6008F8D53 /* AppDelegate.swift */; };
+		2343696A2A8483A6008F8D53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234369692A8483A6008F8D53 /* SceneDelegate.swift */; };
+		234369712A8483A7008F8D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234369702A8483A7008F8D53 /* Assets.xcassets */; };
+		2343697F2A8483A8008F8D53 /* QRScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343697E2A8483A8008F8D53 /* QRScanTests.swift */; };
+		234369892A8483A8008F8D53 /* QRScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234369882A8483A8008F8D53 /* QRScanUITests.swift */; };
+		2343698B2A8483A8008F8D53 /* QRScanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343698A2A8483A8008F8D53 /* QRScanUITestsLaunchTests.swift */; };
+		2343699B2A848684008F8D53 /* UIViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343699A2A848684008F8D53 /* UIViewHelper.swift */; };
+		2343699D2A8486DA008F8D53 /* RouterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2343699C2A8486DA008F8D53 /* RouterHelper.swift */; };
+		2B3DC92F130D1B56902FCABD /* Pods_QRScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C985B8FC518E6EE55F92A60 /* Pods_QRScan.framework */; };
+		7B23585298DCA41AD5FBE16B /* Pods_QRScanTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D7AF67E9A29FC7AB2CA11A /* Pods_QRScanTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2343697B2A8483A8008F8D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2343695C2A8483A6008F8D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234369632A8483A6008F8D53;
+			remoteInfo = QRScan;
+		};
+		234369852A8483A8008F8D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2343695C2A8483A6008F8D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 234369632A8483A6008F8D53;
+			remoteInfo = QRScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2304390E2A84E9780010CE8A /* HomeEntitiy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntitiy.swift; sourceTree = "<group>"; };
+		230439102A84E9A30010CE8A /* PaymentDetailEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailEntity.swift; sourceTree = "<group>"; };
+		230439122A84E9BC0010CE8A /* TransactionHistoryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryEntity.swift; sourceTree = "<group>"; };
+		230439142A84ECD30010CE8A /* TransactionHistoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryRouter.swift; sourceTree = "<group>"; };
+		230439162A84ED2D0010CE8A /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		230439182A84ED460010CE8A /* TransactionHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryViewController.swift; sourceTree = "<group>"; };
+		2304391A2A84ED630010CE8A /* TransactionHistoryInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryInteractor.swift; sourceTree = "<group>"; };
+		2304391C2A84ED780010CE8A /* TransactionHistoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryPresenter.swift; sourceTree = "<group>"; };
+		2304391E2A84F0740010CE8A /* PaymentDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailPresenter.swift; sourceTree = "<group>"; };
+		230439202A84F08F0010CE8A /* PaymentDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailRouter.swift; sourceTree = "<group>"; };
+		230439222A84F0A70010CE8A /* PaymentDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailInteractor.swift; sourceTree = "<group>"; };
+		230439242A84F0D60010CE8A /* PaymentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailViewController.swift; sourceTree = "<group>"; };
+		230439262A84F15C0010CE8A /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		230439282A84F18B0010CE8A /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		2304392A2A85CBF00010CE8A /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		2304392C2A85CC0B0010CE8A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2304392F2A85CD0C0010CE8A /* HomeTableViewProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewProfileCell.swift; sourceTree = "<group>"; };
+		230439312A85CD180010CE8A /* HomeTableMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableMenuCell.swift; sourceTree = "<group>"; };
+		230439332A85D6420010CE8A /* ScanQRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRViewController.swift; sourceTree = "<group>"; };
+		230439352A85D65C0010CE8A /* ScanQRInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRInteractor.swift; sourceTree = "<group>"; };
+		230439372A85D6790010CE8A /* ScanQRPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRPresenter.swift; sourceTree = "<group>"; };
+		230439392A85D68B0010CE8A /* ScanQRRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanQRRouter.swift; sourceTree = "<group>"; };
+		234369642A8483A6008F8D53 /* QRScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		234369672A8483A6008F8D53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		234369692A8483A6008F8D53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		234369702A8483A7008F8D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		234369752A8483A7008F8D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2343697A2A8483A8008F8D53 /* QRScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2343697E2A8483A8008F8D53 /* QRScanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanTests.swift; sourceTree = "<group>"; };
+		234369842A8483A8008F8D53 /* QRScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		234369882A8483A8008F8D53 /* QRScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanUITests.swift; sourceTree = "<group>"; };
+		2343698A2A8483A8008F8D53 /* QRScanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2343699A2A848684008F8D53 /* UIViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewHelper.swift; sourceTree = "<group>"; };
+		2343699C2A8486DA008F8D53 /* RouterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHelper.swift; sourceTree = "<group>"; };
+		25F857D21F74A723231A5017 /* Pods_QRScan_QRScanUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRScan_QRScanUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C985B8FC518E6EE55F92A60 /* Pods_QRScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D7AF67E9A29FC7AB2CA11A /* Pods_QRScanTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRScanTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A23FFB3F2926517484802F1 /* Pods-QRScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScan.release.xcconfig"; path = "Target Support Files/Pods-QRScan/Pods-QRScan.release.xcconfig"; sourceTree = "<group>"; };
+		5EB71AD3C113A10D7D0E9C07 /* Pods-QRScanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScanTests.release.xcconfig"; path = "Target Support Files/Pods-QRScanTests/Pods-QRScanTests.release.xcconfig"; sourceTree = "<group>"; };
+		6396CA4345623AAF10B27CF9 /* Pods-QRScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScan.debug.xcconfig"; path = "Target Support Files/Pods-QRScan/Pods-QRScan.debug.xcconfig"; sourceTree = "<group>"; };
+		64BE26D01D4F166CD70490F8 /* Pods-QRScan-QRScanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScan-QRScanUITests.release.xcconfig"; path = "Target Support Files/Pods-QRScan-QRScanUITests/Pods-QRScan-QRScanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B1EFCEFD3EF9C768ED430EC7 /* Pods-QRScan-QRScanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScan-QRScanUITests.debug.xcconfig"; path = "Target Support Files/Pods-QRScan-QRScanUITests/Pods-QRScan-QRScanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF1A026CBAA876CBE777D2F7 /* Pods-QRScanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRScanTests.debug.xcconfig"; path = "Target Support Files/Pods-QRScanTests/Pods-QRScanTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		234369612A8483A6008F8D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3DC92F130D1B56902FCABD /* Pods_QRScan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234369772A8483A8008F8D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B23585298DCA41AD5FBE16B /* Pods_QRScanTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234369812A8483A8008F8D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DD46291D1D097D28E06CC1 /* Pods_QRScan_QRScanUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230438F72A84E3B20010CE8A /* TransactionHistoryModule */ = {
+			isa = PBXGroup;
+			children = (
+				230438FE2A84E41B0010CE8A /* Entitiy */,
+				230438FB2A84E3FD0010CE8A /* Router */,
+				230438FC2A84E4040010CE8A /* Interactor */,
+				230438FD2A84E4110010CE8A /* Presenter */,
+				230438FF2A84E4260010CE8A /* View */,
+			);
+			path = TransactionHistoryModule;
+			sourceTree = "<group>";
+		};
+		230438F82A84E3BB0010CE8A /* PaymentDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				230439022A84E45E0010CE8A /* Entitiy */,
+				230439002A84E44D0010CE8A /* Router */,
+				230439042A84E49A0010CE8A /* Interactor */,
+				230439032A84E47E0010CE8A /* Presenter */,
+				230439012A84E4590010CE8A /* View */,
+			);
+			path = PaymentDetailModule;
+			sourceTree = "<group>";
+		};
+		230438F92A84E3C40010CE8A /* ScanQRModule */ = {
+			isa = PBXGroup;
+			children = (
+				230439082A84E4CC0010CE8A /* Router */,
+				230439062A84E4BE0010CE8A /* Interactor */,
+				230439072A84E4C50010CE8A /* Presenter */,
+				230439052A84E4B60010CE8A /* View */,
+			);
+			path = ScanQRModule;
+			sourceTree = "<group>";
+		};
+		230438FA2A84E3E40010CE8A /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				2304390D2A84E6A40010CE8A /* Entitiy */,
+				2304390C2A84E69D0010CE8A /* Router */,
+				2304390B2A84E68B0010CE8A /* Interactor */,
+				2304390A2A84E6840010CE8A /* Presenter */,
+				230439092A84E4DF0010CE8A /* View */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		230438FB2A84E3FD0010CE8A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				230439142A84ECD30010CE8A /* TransactionHistoryRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		230438FC2A84E4040010CE8A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2304391A2A84ED630010CE8A /* TransactionHistoryInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		230438FD2A84E4110010CE8A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2304391C2A84ED780010CE8A /* TransactionHistoryPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		230438FE2A84E41B0010CE8A /* Entitiy */ = {
+			isa = PBXGroup;
+			children = (
+				230439122A84E9BC0010CE8A /* TransactionHistoryEntity.swift */,
+			);
+			path = Entitiy;
+			sourceTree = "<group>";
+		};
+		230438FF2A84E4260010CE8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				230439162A84ED2D0010CE8A /* TransactionTableViewCell.swift */,
+				230439182A84ED460010CE8A /* TransactionHistoryViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		230439002A84E44D0010CE8A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				230439202A84F08F0010CE8A /* PaymentDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		230439012A84E4590010CE8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				230439242A84F0D60010CE8A /* PaymentDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		230439022A84E45E0010CE8A /* Entitiy */ = {
+			isa = PBXGroup;
+			children = (
+				230439102A84E9A30010CE8A /* PaymentDetailEntity.swift */,
+			);
+			path = Entitiy;
+			sourceTree = "<group>";
+		};
+		230439032A84E47E0010CE8A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2304391E2A84F0740010CE8A /* PaymentDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		230439042A84E49A0010CE8A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				230439222A84F0A70010CE8A /* PaymentDetailInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		230439052A84E4B60010CE8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				230439332A85D6420010CE8A /* ScanQRViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		230439062A84E4BE0010CE8A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				230439352A85D65C0010CE8A /* ScanQRInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		230439072A84E4C50010CE8A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				230439372A85D6790010CE8A /* ScanQRPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		230439082A84E4CC0010CE8A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				230439392A85D68B0010CE8A /* ScanQRRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		230439092A84E4DF0010CE8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2304392E2A85CC190010CE8A /* HomeViewTableViewCell */,
+				2304392C2A85CC0B0010CE8A /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2304390A2A84E6840010CE8A /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2304392A2A85CBF00010CE8A /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2304390B2A84E68B0010CE8A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				230439282A84F18B0010CE8A /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2304390C2A84E69D0010CE8A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				230439262A84F15C0010CE8A /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2304390D2A84E6A40010CE8A /* Entitiy */ = {
+			isa = PBXGroup;
+			children = (
+				2304390E2A84E9780010CE8A /* HomeEntitiy.swift */,
+			);
+			path = Entitiy;
+			sourceTree = "<group>";
+		};
+		2304392E2A85CC190010CE8A /* HomeViewTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2304392F2A85CD0C0010CE8A /* HomeTableViewProfileCell.swift */,
+				230439312A85CD180010CE8A /* HomeTableMenuCell.swift */,
+			);
+			path = HomeViewTableViewCell;
+			sourceTree = "<group>";
+		};
+		2343695B2A8483A6008F8D53 = {
+			isa = PBXGroup;
+			children = (
+				234369662A8483A6008F8D53 /* QRScan */,
+				2343697D2A8483A8008F8D53 /* QRScanTests */,
+				234369872A8483A8008F8D53 /* QRScanUITests */,
+				234369652A8483A6008F8D53 /* Products */,
+				5A640921DCA06FC9C4AEBAF2 /* Pods */,
+				4A3A1628F207AA7CA990EEAC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		234369652A8483A6008F8D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234369642A8483A6008F8D53 /* QRScan.app */,
+				2343697A2A8483A8008F8D53 /* QRScanTests.xctest */,
+				234369842A8483A8008F8D53 /* QRScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234369662A8483A6008F8D53 /* QRScan */ = {
+			isa = PBXGroup;
+			children = (
+				234369972A848619008F8D53 /* Helper */,
+				234369982A848625008F8D53 /* App */,
+				234369992A84862C008F8D53 /* Modules */,
+				234369702A8483A7008F8D53 /* Assets.xcassets */,
+				234369752A8483A7008F8D53 /* Info.plist */,
+			);
+			path = QRScan;
+			sourceTree = "<group>";
+		};
+		2343697D2A8483A8008F8D53 /* QRScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				2343697E2A8483A8008F8D53 /* QRScanTests.swift */,
+			);
+			path = QRScanTests;
+			sourceTree = "<group>";
+		};
+		234369872A8483A8008F8D53 /* QRScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				234369882A8483A8008F8D53 /* QRScanUITests.swift */,
+				2343698A2A8483A8008F8D53 /* QRScanUITestsLaunchTests.swift */,
+			);
+			path = QRScanUITests;
+			sourceTree = "<group>";
+		};
+		234369972A848619008F8D53 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2343699A2A848684008F8D53 /* UIViewHelper.swift */,
+				2343699C2A8486DA008F8D53 /* RouterHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		234369982A848625008F8D53 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				234369672A8483A6008F8D53 /* AppDelegate.swift */,
+				234369692A8483A6008F8D53 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		234369992A84862C008F8D53 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				230438F72A84E3B20010CE8A /* TransactionHistoryModule */,
+				230438F82A84E3BB0010CE8A /* PaymentDetailModule */,
+				230438F92A84E3C40010CE8A /* ScanQRModule */,
+				230438FA2A84E3E40010CE8A /* HomeModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4A3A1628F207AA7CA990EEAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C985B8FC518E6EE55F92A60 /* Pods_QRScan.framework */,
+				25F857D21F74A723231A5017 /* Pods_QRScan_QRScanUITests.framework */,
+				59D7AF67E9A29FC7AB2CA11A /* Pods_QRScanTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A640921DCA06FC9C4AEBAF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6396CA4345623AAF10B27CF9 /* Pods-QRScan.debug.xcconfig */,
+				5A23FFB3F2926517484802F1 /* Pods-QRScan.release.xcconfig */,
+				B1EFCEFD3EF9C768ED430EC7 /* Pods-QRScan-QRScanUITests.debug.xcconfig */,
+				64BE26D01D4F166CD70490F8 /* Pods-QRScan-QRScanUITests.release.xcconfig */,
+				EF1A026CBAA876CBE777D2F7 /* Pods-QRScanTests.debug.xcconfig */,
+				5EB71AD3C113A10D7D0E9C07 /* Pods-QRScanTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		234369632A8483A6008F8D53 /* QRScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2343698E2A8483A8008F8D53 /* Build configuration list for PBXNativeTarget "QRScan" */;
+			buildPhases = (
+				54F4A75738548B283CF854E1 /* [CP] Check Pods Manifest.lock */,
+				234369602A8483A6008F8D53 /* Sources */,
+				234369612A8483A6008F8D53 /* Frameworks */,
+				234369622A8483A6008F8D53 /* Resources */,
+				8AA307AAEEC7DF8AE0F42BB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRScan;
+			productName = QRScan;
+			productReference = 234369642A8483A6008F8D53 /* QRScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		234369792A8483A8008F8D53 /* QRScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234369912A8483A8008F8D53 /* Build configuration list for PBXNativeTarget "QRScanTests" */;
+			buildPhases = (
+				7D1743675B8CCD878609501F /* [CP] Check Pods Manifest.lock */,
+				234369762A8483A8008F8D53 /* Sources */,
+				234369772A8483A8008F8D53 /* Frameworks */,
+				234369782A8483A8008F8D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2343697C2A8483A8008F8D53 /* PBXTargetDependency */,
+			);
+			name = QRScanTests;
+			productName = QRScanTests;
+			productReference = 2343697A2A8483A8008F8D53 /* QRScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		234369832A8483A8008F8D53 /* QRScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234369942A8483A8008F8D53 /* Build configuration list for PBXNativeTarget "QRScanUITests" */;
+			buildPhases = (
+				5447B9D8C8C9A4B5613F9925 /* [CP] Check Pods Manifest.lock */,
+				234369802A8483A8008F8D53 /* Sources */,
+				234369812A8483A8008F8D53 /* Frameworks */,
+				234369822A8483A8008F8D53 /* Resources */,
+				5BF8B2895E3C8DDDA9C74938 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				234369862A8483A8008F8D53 /* PBXTargetDependency */,
+			);
+			name = QRScanUITests;
+			productName = QRScanUITests;
+			productReference = 234369842A8483A8008F8D53 /* QRScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2343695C2A8483A6008F8D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					234369632A8483A6008F8D53 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					234369792A8483A8008F8D53 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 234369632A8483A6008F8D53;
+					};
+					234369832A8483A8008F8D53 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 234369632A8483A6008F8D53;
+					};
+				};
+			};
+			buildConfigurationList = 2343695F2A8483A6008F8D53 /* Build configuration list for PBXProject "QRScan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2343695B2A8483A6008F8D53;
+			productRefGroup = 234369652A8483A6008F8D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234369632A8483A6008F8D53 /* QRScan */,
+				234369792A8483A8008F8D53 /* QRScanTests */,
+				234369832A8483A8008F8D53 /* QRScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234369622A8483A6008F8D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234369712A8483A7008F8D53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234369782A8483A8008F8D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234369822A8483A8008F8D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5447B9D8C8C9A4B5613F9925 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRScan-QRScanUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F4A75738548B283CF854E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRScan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BF8B2895E3C8DDDA9C74938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRScan-QRScanUITests/Pods-QRScan-QRScanUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRScan-QRScanUITests/Pods-QRScan-QRScanUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRScan-QRScanUITests/Pods-QRScan-QRScanUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D1743675B8CCD878609501F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRScanTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA307AAEEC7DF8AE0F42BB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRScan/Pods-QRScan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRScan/Pods-QRScan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRScan/Pods-QRScan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234369602A8483A6008F8D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2304391D2A84ED780010CE8A /* TransactionHistoryPresenter.swift in Sources */,
+				2304390F2A84E9780010CE8A /* HomeEntitiy.swift in Sources */,
+				230439212A84F08F0010CE8A /* PaymentDetailRouter.swift in Sources */,
+				230439302A85CD0C0010CE8A /* HomeTableViewProfileCell.swift in Sources */,
+				230439132A84E9BC0010CE8A /* TransactionHistoryEntity.swift in Sources */,
+				230439252A84F0D60010CE8A /* PaymentDetailViewController.swift in Sources */,
+				230439152A84ECD30010CE8A /* TransactionHistoryRouter.swift in Sources */,
+				234369682A8483A6008F8D53 /* AppDelegate.swift in Sources */,
+				230439322A85CD180010CE8A /* HomeTableMenuCell.swift in Sources */,
+				2343699B2A848684008F8D53 /* UIViewHelper.swift in Sources */,
+				230439272A84F15C0010CE8A /* HomeRouter.swift in Sources */,
+				2343696A2A8483A6008F8D53 /* SceneDelegate.swift in Sources */,
+				230439232A84F0A70010CE8A /* PaymentDetailInteractor.swift in Sources */,
+				230439382A85D6790010CE8A /* ScanQRPresenter.swift in Sources */,
+				230439192A84ED460010CE8A /* TransactionHistoryViewController.swift in Sources */,
+				230439342A85D6420010CE8A /* ScanQRViewController.swift in Sources */,
+				230439112A84E9A30010CE8A /* PaymentDetailEntity.swift in Sources */,
+				230439172A84ED2D0010CE8A /* TransactionTableViewCell.swift in Sources */,
+				2304392B2A85CBF00010CE8A /* HomePresenter.swift in Sources */,
+				2304392D2A85CC0B0010CE8A /* HomeViewController.swift in Sources */,
+				2304393A2A85D68B0010CE8A /* ScanQRRouter.swift in Sources */,
+				2343699D2A8486DA008F8D53 /* RouterHelper.swift in Sources */,
+				230439362A85D65C0010CE8A /* ScanQRInteractor.swift in Sources */,
+				230439292A84F18B0010CE8A /* HomeInteractor.swift in Sources */,
+				2304391F2A84F0740010CE8A /* PaymentDetailPresenter.swift in Sources */,
+				2304391B2A84ED630010CE8A /* TransactionHistoryInteractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234369762A8483A8008F8D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2343697F2A8483A8008F8D53 /* QRScanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		234369802A8483A8008F8D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2343698B2A8483A8008F8D53 /* QRScanUITestsLaunchTests.swift in Sources */,
+				234369892A8483A8008F8D53 /* QRScanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2343697C2A8483A8008F8D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234369632A8483A6008F8D53 /* QRScan */;
+			targetProxy = 2343697B2A8483A8008F8D53 /* PBXContainerItemProxy */;
+		};
+		234369862A8483A8008F8D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 234369632A8483A6008F8D53 /* QRScan */;
+			targetProxy = 234369852A8483A8008F8D53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2343698C2A8483A8008F8D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2343698D2A8483A8008F8D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2343698F2A8483A8008F8D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6396CA4345623AAF10B27CF9 /* Pods-QRScan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY65R8DR6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QRScan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tama.QRScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		234369902A8483A8008F8D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A23FFB3F2926517484802F1 /* Pods-QRScan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY65R8DR6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QRScan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tama.QRScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		234369922A8483A8008F8D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1A026CBAA876CBE777D2F7 /* Pods-QRScanTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY65R8DR6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tama.QRScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRScan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QRScan";
+			};
+			name = Debug;
+		};
+		234369932A8483A8008F8D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB71AD3C113A10D7D0E9C07 /* Pods-QRScanTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY65R8DR6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tama.QRScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRScan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QRScan";
+			};
+			name = Release;
+		};
+		234369952A8483A8008F8D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EFCEFD3EF9C768ED430EC7 /* Pods-QRScan-QRScanUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY65R8DR6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tama.QRScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRScan;
+			};
+			name = Debug;
+		};
+		234369962A8483A8008F8D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64BE26D01D4F166CD70490F8 /* Pods-QRScan-QRScanUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MY65R8DR6S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tama.QRScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QRScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2343695F2A8483A6008F8D53 /* Build configuration list for PBXProject "QRScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2343698C2A8483A8008F8D53 /* Debug */,
+				2343698D2A8483A8008F8D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2343698E2A8483A8008F8D53 /* Build configuration list for PBXNativeTarget "QRScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2343698F2A8483A8008F8D53 /* Debug */,
+				234369902A8483A8008F8D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234369912A8483A8008F8D53 /* Build configuration list for PBXNativeTarget "QRScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234369922A8483A8008F8D53 /* Debug */,
+				234369932A8483A8008F8D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234369942A8483A8008F8D53 /* Build configuration list for PBXNativeTarget "QRScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234369952A8483A8008F8D53 /* Debug */,
+				234369962A8483A8008F8D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2343695C2A8483A6008F8D53 /* Project object */;
+}

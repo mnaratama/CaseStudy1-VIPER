@@ -1,0 +1,6 @@
+framework module Pods_QRScan_QRScanUITests {
+  umbrella header "Pods-QRScan-QRScanUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
